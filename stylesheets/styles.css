@@ -54,37 +54,29 @@ nav {
 /*******Body*******/
 
 body {
-  padding-top: 100px;
+  padding-top: 82px;
   margin: 0px;
 }
 /*****Section******/
 
 .main-section {
-  border: solid;
-  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  width: 80%;
+  padding: 10%;
 }
 
 section h2 {
-  width: 20%;
-  /*background-color: red;*/
-  margin-left: 5%;
-  /*border: solid;*/
+  flex-grow: 1;
   font-size: 4rem;
-  text-align: center;
 }
 
 section div {
-  width: 50%;
-  /*background-color: yellow;*/
-  margin-right: 5%;
-  /*border: solid;*/
-  margin-left: 17%;
+  flex-grow: 3;
+  margin-left: 10%;
 }
 
-section h2,
-section div {
-  display: inline-block;
-}
 
 
 /******Footer******/
