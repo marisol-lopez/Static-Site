@@ -54,37 +54,47 @@ nav {
 /*******Body*******/
 
 body {
-  padding-top: 100px;
+  padding-top: 82px;
   margin: 0px;
 }
 /*****Section******/
 
 .main-section {
-  border: solid;
-  width: 100%;
+   /* HEY MARISOL! Note the change in the line below. "Border" is a one-line attribute that is expecing three values: border-width, border-style, and border-color. If you only want to specify one element instead of all three, use the more specific attribute, like "border-style: solid"*/
+  border: 1px solid black;
+  width: 80%;
+  padding: 10%;
 }
 
-section h2 {
-  width: 20%;
-  /*background-color: red;*/
-  margin-left: 5%;
-  /*border: solid;*/
-  font-size: 4rem;
-  text-align: center;
+div.section-title,
+div.section-paragraph {
+  min-height: 100px;
 }
 
-section div {
-  width: 50%;
-  /*background-color: yellow;*/
-  margin-right: 5%;
-  /*border: solid;*/
-  margin-left: 17%;
-}
-
-section h2,
-section div {
+div.section-title,
+div.section-paragraph,
+.section-title h2,
+.section-paragraph p {
   display: inline-block;
 }
+
+div.section-title {
+  width: 40%;
+  font-size: 3rem;
+  text-align: left;
+}
+
+div.section-paragraph {
+  width: 48%;
+  margin-left: 10%;
+}
+
+.section-title h2,
+.section-paragraph p {
+  vertical-align: middle;
+  margin: 0;
+}
+
 
 
 /******Footer******/
