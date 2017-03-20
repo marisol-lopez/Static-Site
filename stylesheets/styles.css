@@ -1,5 +1,5 @@
 * {
-  font-family: Helvetica;
+  font-family: "Helvetica Neue";
 }
 
 /*****Navigation bar at top of page*****/
@@ -10,11 +10,13 @@ header {
   position: fixed;
   display: flex;
   justify-content: space-between;
+  background-color: white;
 }
 
 nav,
 h1 {
   margin: 0.67em;
+
 }
 
 nav {
@@ -49,7 +51,7 @@ nav {
   color: pink;
 }
 
-/*****Body*****/
+/*******Body*******/
 
 body {
   padding-top: 100px;
@@ -64,20 +66,27 @@ section {
 
 section h2 {
   width: 20%;
-  background-color: red;
-  margin-left: 10%;
-  border: solid;
+  /*background-color: red;*/
+  margin-left: 5%;
+  /*border: solid;*/
+  font-size: 70px;
+  text-align: center;
 }
 
 section div {
-  width: 80%;
-  background-color: yellow;
-  margin-right: 10%;
-  border: solid;
+  width: 50%;
+  /*background-color: yellow;*/
+  margin-right: 5%;
+  /*border: solid;*/
+  margin-left: 17%;
 }
 
 section h2,
-section div p {
-  display: inline-block;
-
+section div {
+display: inline-block;
 }
+
+/*section h2,
+section div p{
+  vertical-align: top;
+}*/
