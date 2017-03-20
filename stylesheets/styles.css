@@ -59,7 +59,7 @@ body {
 }
 /*****Section******/
 
-section {
+.main-section {
   border: solid;
   width: 100%;
 }
@@ -69,7 +69,7 @@ section h2 {
   /*background-color: red;*/
   margin-left: 5%;
   /*border: solid;*/
-  font-size: 70px;
+  font-size: 4rem;
   text-align: center;
 }
 
@@ -83,10 +83,14 @@ section div {
 
 section h2,
 section div {
-display: inline-block;
+  display: inline-block;
 }
 
-/*section h2,
-section div p{
-  vertical-align: top;
-}*/
+
+/******Footer******/
+.footer {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  display: block;
+}
